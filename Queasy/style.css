@@ -4,7 +4,28 @@
   }
 p {
     font-family: 'visby';
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size:x-large;
 }
-body {
-    background-color: #77bef5;
+img.logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+img.main {
+    width: 20%;
+    height: 20%;
+    margin-top: 23.5%;
+    margin-left: 55%;
+}
+h1.titre {
+    font-family: 'visby';
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-size: 200%;
 }
