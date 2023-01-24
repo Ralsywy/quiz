@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'visby';
+    src: url('Polices/VisbyRoundCF-Heavy.otf');
+  }
+p {
+    font-family: 'visby';
+}
+body {
+    background-color: #77bef5;
+}
