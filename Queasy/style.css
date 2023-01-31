@@ -4,11 +4,12 @@
   }
 p {
     font-family: 'visby';
-    color: white;
     position: absolute;
     top: 40%;
-    left: 45%;
+    left: 45.2%;
     font-size:x-large;
+    color: white;
+
 }
 img.logo {
     width: 150px;
@@ -18,14 +19,30 @@ img.logo {
 img.main {
     width: 20%;
     height: 20%;
-    margin-top: 23.5%;
-    margin-left: 55%;
+    margin-top: 23%;
+    margin-left: 60%;
+}
+@media (max-width: 480px) {
+    img.main {
+        margin-left: 40%;
+        margin-top: 23%;
+    }
+    
 }
 h1.titre {
     font-family: 'visby';
     color: white;
     position: absolute;
     top: 10%;
-    left: 15%;
+    left: 20%;
     font-size: 200%;
+}
+button {
+    position: absolute;
+    left: 46%;
+    top: 50%;
+}
+span {
+    font-family: 'visby';
+    color: #78b6fe;
 }
