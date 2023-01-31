@@ -5,10 +5,11 @@
 p.connect1 {
     font-family: 'visby';
     position: absolute;
-    top: 40%;
-    left: 45.2%;
+    top: 45%;
+    left: 44%;
     font-size:x-large;
     color: white;
+    font-size: clamp(30px, 1vw, 70px)
 
 }
 img.logo {
@@ -41,6 +42,7 @@ button {
     position: absolute;
     left: 46%;
     top: 60%;
+    border-radius :25px; 
 }
 span {
     font-family: 'visby';
@@ -56,9 +58,10 @@ p.connect2 {
     font-family: 'visby';
     position: absolute;
     top: 30%;
-    left: 44.5%;
+    left: 42%;
     font-size:x-large;
     color: white;
+    font-size: clamp(30px, 2vw, 70px)
 }
 p.nom {
     font-size: x-large;
@@ -67,6 +70,7 @@ p.nom {
     position: absolute;
     top: 39.6%;
     right: 62%;
+    font-size: clamp(30px, 1vw, 70px)
 }
 p.mdp {
     font-size: x-large;
@@ -75,4 +79,5 @@ p.mdp {
     position: absolute;
     top: 45.5%;
     right: 62%;
+    font-size: clamp(30px, 1vw, 70px)
 }
